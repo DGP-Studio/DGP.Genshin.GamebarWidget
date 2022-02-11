@@ -1,0 +1,9 @@
+/.vs
+/.vscode/.ropeproject
+/.vs/DGP.Genshin.GamebarWidget
+/AppPackages
+
+/DGP.Genshin.GamebarWidget/bin
+/DGP.Genshin.GamebarWidget/obj
+
+/DGP.Genshin.GamebarWidget/BundleArtifacts

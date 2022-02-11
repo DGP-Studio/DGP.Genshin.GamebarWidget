@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="DGP.Genshin.GamebarWidget.View.ResinPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DGP.Genshin.GamebarWidget.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:viewmodel="using:DGP.Genshin.GamebarWidget.ViewModel"
+    mc:Ignorable="d"
+    d:DesignHeight="48" d:DesignWidth="320" Name="ResinView">
+    <Border Background="{ThemeResource SystemControlAcrylicElementBrush}" CornerRadius="8">
+        <Grid Margin="10,0,10,2" VerticalAlignment="Center">
+            <StackPanel>
+                <TextBlock Text="{Binding RoleAndNote.Role}" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text="{Binding RoleAndNote.Note.ResinRecoveryTargetTimeFormatted}" Style="{StaticResource CaptionTextBlockStyle}"/>
+            </StackPanel>
+            <TextBlock Text="{Binding RoleAndNote.Note.ResinFormatted}" Style="{StaticResource SubtitleTextBlockStyle}" Margin="0,0,0,2"
+                       HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light"/>
+        </Grid>
+    </Border>
+</Page>
