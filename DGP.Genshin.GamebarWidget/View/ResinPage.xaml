@@ -8,11 +8,11 @@
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     xmlns:viewmodel="using:DGP.Genshin.GamebarWidget.ViewModel"
     mc:Ignorable="d"
-    d:DesignHeight="48" d:DesignWidth="320" Name="ResinView">
-    <Border Background="{ThemeResource SystemControlAcrylicElementBrush}" CornerRadius="8">
+    d:DesignHeight="40" d:DesignWidth="320" Name="ResinView">
+    <Border CornerRadius="8">
         <Grid Margin="10,0,10,2" VerticalAlignment="Center">
             <StackPanel>
-                <TextBlock Text="{Binding RoleAndNote.Role}" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text="{Binding RoleAndNote.Role}" Style="{StaticResource CaptionTextBlockStyle}" FontWeight="SemiBold"/>
                 <TextBlock Text="{Binding RoleAndNote.Note.ResinRecoveryTargetTimeFormatted}" Style="{StaticResource CaptionTextBlockStyle}"/>
             </StackPanel>
             <TextBlock Text="{Binding RoleAndNote.Note.ResinFormatted}" Style="{StaticResource SubtitleTextBlockStyle}" Margin="0,0,0,2"

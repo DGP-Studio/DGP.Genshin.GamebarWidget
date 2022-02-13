@@ -9,8 +9,8 @@
 
   <Identity
     Name="60568DGPStudio.SnapGenshinResin"
-    Publisher="CN=35C8E923-85DF-49A7-9172-B39DC6312C52"
-    Version="1.0.7.0" />
+    Publisher="CN=16861"
+    Version="1.0.9.0" />
 
   <mp:PhoneIdentity PhoneProductId="bc3bc3ba-e0cf-44df-933d-a3b17611e55f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -56,7 +56,7 @@
                 <Window>
                   <AllowForegroundTransparency>true</AllowForegroundTransparency>
                   <Size>
-                    <Height>48</Height>
+                    <Height>40</Height>
                     <Width>280</Width>
                   </Size>
                   <ResizeSupported>
