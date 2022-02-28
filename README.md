@@ -19,6 +19,7 @@
        ![图片5](https://user-images.githubusercontent.com/52618207/155873441-ae5caa20-1fb9-4c07-8d46-5c304052cbe8.png)
 
    5. 此时你通过Windows的搜索工具即可找到该组件程序    
+       ![通过搜索工具找到小组件程序](https://user-images.githubusercontent.com/10614984/155932570-d83f8c6d-6456-4530-9bec-c5d16a67e1f6.png)
 
    6. 打开程序，添加你的米游社帐号
 
