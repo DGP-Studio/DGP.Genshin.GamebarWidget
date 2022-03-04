@@ -9,8 +9,8 @@
 
   <Identity
     Name="60568DGPStudio.SnapGenshinResin"
-    Publisher="CN=16861"
-    Version="1.0.9.0" />
+    Publisher="CN=DGP Studio"
+    Version="1.0.11.0" />
 
   <mp:PhoneIdentity PhoneProductId="bc3bc3ba-e0cf-44df-933d-a3b17611e55f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
